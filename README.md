@@ -7,6 +7,15 @@ that are 1 or 2 in the samples array will be drawn closer to the
 center, while the segments that are 0 will be drawn at the
 edge. Invalid samples are drawn at 4, closest to the center.
 
+# Status
+- PoC is working
+- Unsophisticated decoding
+- Display / parity bugs
+
+# Photo
+![round display, oscilloscope showing PWM, WWVB receiver with ferrite bar antenna](clockish.jpg)
+
+
 # Features
 - Uses the rp2040-lcd-1.28 display and SymRFT60 WWVB receiver
 - Draws a circle with segments colored based on WWVB samples
